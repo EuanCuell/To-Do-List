@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Todo List Application</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="input-field">
+            <textarea placeholder="Enter you're new todo" id="" cols="30" rows="10"></textarea> <!-- This creates a text area where users can write their own text -->
+            <i class='bx bx-notepad'></i>
+        </div>
+
+        <ul class="todolists"> <!-- We usd the ul tag along with the li tag to create unordered lists -->
+        </ul>
+
+        <div class="pending-tasks">
+            <span>You have <span class="pending-num"> no </span> tasks pending.</span>
+            <button class="clear-button">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
